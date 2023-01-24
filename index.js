@@ -6,10 +6,10 @@ const PORT = 4000;
 
 // connection
 
-const MONGO_URL = "mongodb://127.0.0.1";
-const client = new MongoClient(MONGO_URL); // dail
-await client.connect(); // call
-console.log("Mongo is connected !!!");
+// const MONGO_URL = "mongodb://127.0.0.1";
+// const client = new MongoClient(MONGO_URL); // dail
+// await client.connect(); // call
+// console.log("Mongo is connected !!!");
 
 
 const PizzaData = [
